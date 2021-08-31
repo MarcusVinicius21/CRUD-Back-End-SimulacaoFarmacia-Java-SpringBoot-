@@ -1,25 +1,41 @@
 # CRUD-Back-End-SimulacaoFarmacia-Java-SpringBoot-
 
 Boas práticas de construção de uma API rest.
-0 configure o applicationProperties para o seu banco de dados.
-1 Crie uma model coloque todos os atributos necessários + get seters+ anotações
-2 Teste sua aplicação (verifique se a tabela foi criada no mysql workbench)
-3 Crie um repository e um controller com um método findAll
-3 insira dados via o mysql workbench
-4 teste o método findAll através do postman.
-5 Crie um método findById no controller
-6 Teste o método findByID via postman.
-7 crie um método post no controller
-8 teste o método post via postman.
-9 crie um método put no controller.
-10 teste o método put no postman.
-11 crie um método delete no controller
-12 teste o método delete no postman.
 
+0 configure o applicationProperties para o seu banco de dados.
+
+1 Crie uma model coloque todos os atributos necessários + get seters+ anotações
+
+2 Teste sua aplicação (verifique se a tabela foi criada no mysql workbench)
+
+3 Crie um repository e um controller com um método findAll
+
+3 insira dados via o mysql workbench
+
+4 teste o método findAll através do postman.
+
+5 Crie um método findById no controller
+
+6 Teste o método findByID via postman.
+
+7 crie um método post no controller
+
+8 teste o método post via postman.
+
+9 crie um método put no controller.
+
+10 teste o método put no postman.
+
+11 crie um método delete no controller
+
+12 teste o método delete no postman.
+##
 Atividade CRUD Back-end Farmacia.
-construa um back-end para uma Farmacia onde ele tenha a capacidade de
-manipular os dados dos Produtos.
+##
+Construa um back-end para uma Farmacia onde ele tenha a capacidade de manipular os dados dos Produtos.
+
 Parte 1 criação da tabela Categoria.
+
 1. Camada de model com o nome de Categoria com os atributos.
 2. Uma camada de repository com o nome Categoria Repository (com a
 capacidade de se comunicar com o banco de dados mysql).
